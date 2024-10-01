@@ -13,13 +13,17 @@ brew update
 brew update --cask
 brew upgrade
 brew cleanup
-brew cleanup --cask
+brew cleanup --prune=all --dry-run
+echo -n "Do you want to perform brew cleanup --prune=all 🧹 (y/n)? "
+read answer
+if [ "$answer" != "${answer#[Yy]}" ] ;then
+brew cleanup --prune=all
+fi
 brew doctor 
 
 fi
 
 #user cache file
-echo "Cleaning user cache file from ~/Library/Caches"
 sudo rm -rf ~/Library/Caches/*
 echo "✅ Done Cleaning from ~/Library/Caches"
 #user logs
