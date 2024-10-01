@@ -20,7 +20,7 @@ This is an interactive script and requires root access. To run, simply execute t
 
 We welcome all contributions! Check out the project, make your changes, and submit your PR.
 
-![Running the Script in the terminal.](https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/screenshots/Running%20Script.png)
+![Running the Script in the terminal.](https://raw.githubusercontent.com/fishkingsin/Clean-Your-Mac/master/screenshots/Running%20Script.png)
 
 For local development:
 
