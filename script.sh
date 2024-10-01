@@ -10,10 +10,10 @@ if [ "$answer" != "${answer#[Yy]}" ] ;then
 #Updating brew
 echo "Updating Brew 🍺 and Cleaning up the Cask 🌊. This might take some time depending upon your network connection and packages installed."
 brew update
-brew cask update
+brew update --cask
 brew upgrade
 brew cleanup
-brew cask cleanup
+brew cleanup --cask
 brew doctor 
 
 fi
