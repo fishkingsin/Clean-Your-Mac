@@ -13,7 +13,7 @@ A bash script designed to declutter and free up your Mac's memory from unwanted 
 This is an interactive script and requires root access. To run, simply execute the following:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/beingfranklin/Clean-Your-Mac/master/script.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fishkingsin/Clean-Your-Mac/master/script.sh)"
 ```
 
 ## 🤝 Contributing
